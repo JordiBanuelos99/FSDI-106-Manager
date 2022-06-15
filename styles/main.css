@@ -1,0 +1,43 @@
+h3 {
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+body {
+    background-image: url("https://i.pinimg.com/originals/de/1d/df/de1ddf9ee30e08e15460626b919ef87e.jpg");
+    background-size: cover;
+}
+
+.main-content {
+    display: flex;
+}
+
+.list {
+    flex: 3;
+    padding: 2rem;
+}
+
+.form {
+    flex: 2;
+    background-color: rgba(30, 21, 156, 0.479);
+}
+
+#icon-important {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#icon-important.fas {
+    color: rgb(165, 145, 255);
+}
+
+#btnShowHide {
+    margin: 2rem;
+}
+
+.pnlForm {
+    padding:2rem;
+    border: 1px solid gray;
+    height: 100vh;
+}
