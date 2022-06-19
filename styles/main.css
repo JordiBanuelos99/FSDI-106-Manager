@@ -29,7 +29,7 @@ body {
 }
 
 #icon-important.fas {
-    color: rgb(165, 145, 255);
+    color: rgb(232, 227, 255);
 }
 
 #btnShowHide {
@@ -40,4 +40,29 @@ body {
     padding:2rem;
     border: 1px solid gray;
     height: 100vh;
+}
+
+.task {
+    display: flex;
+    padding: 7px 10px;
+    background-color: #4b9cf7;
+    border: 1px solid #3c85d7; 
+    margin: 0 20px;
+    color: #fff;
+}
+
+.task:hover {
+    
+}
+
+.task h4 {
+    flex: 3;
+}
+
+.task label {
+    flex: 1;
+}
+
+.task .dates label {
+    display: block;
 }
