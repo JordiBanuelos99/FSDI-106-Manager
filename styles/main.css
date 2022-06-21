@@ -20,7 +20,7 @@ body {
 
 .form {
     flex: 2;
-    background-color: rgba(30, 21, 156, 0.479);
+    background-color: rgba(15, 2, 126, 0.479);
 }
 
 #icon-important {
@@ -45,14 +45,10 @@ body {
 .task {
     display: flex;
     padding: 7px 10px;
-    background-color: #4b9cf7;
-    border: 1px solid #3c85d7; 
+    background-color: rgba(15, 2, 126, 0.479);
+    border: 1px solid gray;
     margin: 0 20px;
     color: #fff;
-}
-
-.task:hover {
-    
 }
 
 .task h4 {
